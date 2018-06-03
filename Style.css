@@ -1,0 +1,65 @@
+#app{
+  background: rgb(120, 150, 150) url(/Tat.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 900px;
+}
+
+body{
+  font-family: 'Passion One';
+}
+
+#graphs{
+  margin-left: 600px;
+  margin-bottom: 70px;
+}
+
+#travel{
+  padding-left: 150px;
+}
+
+form{
+  width: 480px;
+  margin-left: 200px;
+}
+
+input[name=note]{
+  padding-bottom: 50px;
+  padding-top: 15px;
+}
+
+input[type=text]:focus {
+  background-color: rgb(230, 207, 173);
+}
+
+#submit{
+  background: #b79891;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgb(148, 113, 107), rgb(183, 152, 145));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgb(148, 113, 107), rgba(183, 152, 145)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#notes{
+  background: rgba(183, 152, 145, 0.5);  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgb(148, 113, 107, 0.5), rgb(183, 152, 145, 0.5));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgb(148, 113, 107, 0.5), rgba(183, 152, 145, 0.5)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  margin-left: 30px;
+  margin-bottom: 10px;
+  border-radius: 5%;
+}
+
+h3{
+  color: rgb(85, 74, 47);
+}
+
+h4{
+  font-family: Roboto;
+  font-size: 14px;
+}
+
+p{
+  padding-bottom: 20px;
+}
